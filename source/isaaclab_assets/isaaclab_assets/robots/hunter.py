@@ -20,7 +20,7 @@ from isaaclab.assets import ArticulationCfg
 HUNTER_CFG = ArticulationCfg(
     prim_path="{ENV_REGEX_NS}/Robot",
     spawn=sim_utils.UsdFileCfg(
-        usd_path="Path to USD of Hunter",
+        usd_path="/home/lee/Hybrid_DRL_Deployments/source/isaaclab_assets/isaaclab_assets/robots/USD_Hunter/hunter_aim4.usd",
         activate_contact_sensors=True,
         rigid_props=sim_utils.RigidBodyPropertiesCfg(
             disable_gravity=False,
